@@ -93,8 +93,7 @@ def hide_asteroid(asteroid_x, asteroid_y):
     display.set_pixel(asteroid_x, asteroid_y, 0)
 
 def draw_asteroid(asteroid_x, asteroid_y):
-    display.set_pixel(asteroid_x, asteroid_y, 3) # says value of index for this is out of bounds
-    # after first asteroid reaches the bottom...
+    display.set_pixel(asteroid_x, asteroid_y, 3)
 
 def create_asteroid():
     asteroid_x = random.randint(0, pixel_width)
